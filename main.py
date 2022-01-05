@@ -6,7 +6,6 @@ import glob
 from urllib.parse import urlparse, parse_qs
 
 path = '/Users/lulu/Music/Music/Media.localized/Music/"Unknown Artist"/"Unknown Album"/'
-command = 'youtube-dl -x --embed-thumbnail --audio-format mp3 {}'
 
 
 def get_last_created():

@@ -4,7 +4,7 @@ str = ''
 
 for(let i = 0; i < links.length; i++){
 	if(links[i].classList.contains('ytd-playlist-panel-video-renderer')){
-        str += '\n"' + links[i].href + '"'
+        str += '"' + links[i].href + '" '
 	}
 }
 
